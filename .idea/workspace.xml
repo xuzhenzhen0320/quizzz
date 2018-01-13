@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38fc9d58-8b2b-42a7-97e9-1c0ced7e329a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zte/quiz1/Book.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zte/quiz1/GetPrice.java" afterPath="$PROJECT_DIR$/src/main/java/com/zte/quiz1/GetPrice.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zte/quiz1/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/zte/quiz1/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/zte/quiz1/GetPriceTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/zte/quiz1/GetPriceTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="GetPrice.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GetPrice.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zte/quiz1/GetPrice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="40" column="11" lean-forward="true" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+            <state relative-caret-position="1053">
+              <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -50,19 +47,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GetPriceTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GetPriceTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/zte/quiz1/GetPriceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="582">
-              <caret line="44" column="27" lean-forward="true" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
+            <state relative-caret-position="81">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1515847802041" expanded="false" signature="281:298" ph="&lt;~&gt;" />
-                <marker date="1515847802041" expanded="false" signature="541:558" ph="&lt;~&gt;" />
-                <marker date="1515847802041" expanded="false" signature="819:836" ph="&lt;~&gt;" />
-                <marker date="1515847802041" expanded="false" signature="1075:1092" ph="&lt;~&gt;" />
-                <marker date="1515847802041" expanded="false" signature="1334:1351" ph="&lt;~&gt;" />
-                <marker date="1515847802041" expanded="false" signature="1595:1612" ph="&lt;~&gt;" />
+                <element signature="e#292#300#0" expanded="true" />
+                <element signature="e#353#361#0" expanded="true" />
+                <element signature="e#411#419#0" expanded="true" />
+                <element signature="e#710#716#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,16 +74,6 @@
                 <element signature="e#450#451#0" expanded="true" />
                 <element signature="e#482#483#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -120,9 +104,9 @@
         <option value="$PROJECT_DIR$/src/main/java/test/com/zte/quiz1/GetPriceTest.java" />
         <option value="$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class" />
         <option value="$PROJECT_DIR$/src/main/java/com/zte/quiz1/Book.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/zte/quiz1/GetPriceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zte/quiz1/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zte/quiz1/GetPrice.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zte/quiz1/GetPriceTest.java" />
       </list>
     </option>
   </component>
@@ -263,7 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.GetPriceTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -467,8 +451,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.GetPriceTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.GetPriceTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.GetPriceTest.getPrice" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.AppTest" />
         <item index="4" class="java.lang.String" itemvalue="Application.App" />
@@ -487,14 +471,11 @@
       <updated>1515748525259</updated>
       <workItem from="1515748528019" duration="18277000" />
       <workItem from="1515842527384" duration="4172000" />
-      <workItem from="1515847296323" duration="4353000" />
+      <workItem from="1515847296323" duration="5345000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GetPriceTest - 2018.01.12 at 22h 33m 34s.xml">
-      <configuration name="GetPriceTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GetPriceTest - 2018.01.12 at 22h 35m 38s.xml">
       <configuration name="GetPriceTest" configurationId="JUnit" />
     </history-entry>
@@ -522,9 +503,12 @@
     <history-entry file="GetPriceTest - 2018.01.12 at 22h 54m 15s.xml">
       <configuration name="GetPriceTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GetPriceTest - 2018.01.13 at 22h 21m 54s.xml">
+      <configuration name="GetPriceTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26802000" />
+    <option name="totallyTimeSpent" value="27794000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
@@ -608,13 +592,10 @@
         <state relative-caret-position="216">
           <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1515847802041" expanded="false" signature="281:298" ph="&lt;~&gt;" />
-            <marker date="1515847802041" expanded="false" signature="541:558" ph="&lt;~&gt;" />
-            <marker date="1515847802041" expanded="false" signature="819:836" ph="&lt;~&gt;" />
-            <marker date="1515847802041" expanded="false" signature="1075:1092" ph="&lt;~&gt;" />
-            <marker date="1515847802041" expanded="false" signature="1334:1351" ph="&lt;~&gt;" />
-            <marker date="1515847802041" expanded="false" signature="1595:1612" ph="&lt;~&gt;" />
+            <element signature="e#292#300#0" expanded="true" />
+            <element signature="e#353#361#0" expanded="true" />
+            <element signature="e#411#419#0" expanded="true" />
+            <element signature="e#710#716#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -662,13 +643,10 @@
         <state relative-caret-position="216">
           <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1515847802041" expanded="false" signature="281:298" ph="&lt;~&gt;" />
-            <marker date="1515847802041" expanded="false" signature="541:558" ph="&lt;~&gt;" />
-            <marker date="1515847802041" expanded="false" signature="819:836" ph="&lt;~&gt;" />
-            <marker date="1515847802041" expanded="false" signature="1075:1092" ph="&lt;~&gt;" />
-            <marker date="1515847802041" expanded="false" signature="1334:1351" ph="&lt;~&gt;" />
-            <marker date="1515847802041" expanded="false" signature="1595:1612" ph="&lt;~&gt;" />
+            <element signature="e#292#300#0" expanded="true" />
+            <element signature="e#353#361#0" expanded="true" />
+            <element signature="e#411#419#0" expanded="true" />
+            <element signature="e#710#716#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -704,30 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zte/quiz1/GetPriceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="44" column="27" lean-forward="true" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1515847802041" expanded="false" signature="281:298" ph="&lt;~&gt;" />
-            <marker date="1515847802041" expanded="false" signature="541:558" ph="&lt;~&gt;" />
-            <marker date="1515847802041" expanded="false" signature="819:836" ph="&lt;~&gt;" />
-            <marker date="1515847802041" expanded="false" signature="1075:1092" ph="&lt;~&gt;" />
-            <marker date="1515847802041" expanded="false" signature="1334:1351" ph="&lt;~&gt;" />
-            <marker date="1515847802041" expanded="false" signature="1595:1612" ph="&lt;~&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zte/quiz1/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1185">
@@ -739,6 +693,22 @@
             <element signature="e#1195#1203#0" expanded="true" />
             <element signature="e#1718#1726#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zte/quiz1/GetPrice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1053">
+          <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -756,11 +726,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zte/quiz1/GetPrice.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zte/quiz1/GetPriceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="40" column="11" lean-forward="true" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
-          <folding />
+        <state relative-caret-position="81">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#292#300#0" expanded="true" />
+            <element signature="e#353#361#0" expanded="true" />
+            <element signature="e#411#419#0" expanded="true" />
+            <element signature="e#710#716#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
