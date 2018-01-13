@@ -1,6 +1,8 @@
 package com.zte.quiz1;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Scanner;
 
 /**
@@ -16,21 +18,53 @@ import java.util.Scanner;
 public class Main {
     public static void main( String[] args )
     {
-        HashMap<String,Integer> bookMap = new HashMap<String, Integer>();
-
+        List<Book> books = new ArrayList<Book>();
         System.out.println("请输入图书的类型与数量，用空格隔开:");
         Scanner sc = new Scanner(System.in);
-        String s[] = sc.nextLine().split(" ");
-        for(int i = 0;i < s.length;i++){
-            String bookType = s[i];
-            int count = Integer.parseInt(s[i + 1]);
-            bookMap.put(bookType,count);
-            i++;
-        }
+        String s1[] = sc.nextLine().split(" ");
+        String type1 = s1[0];
+        int count1 = Integer.parseInt(s1[1]);
 
-        System.out.println("请输入书的单价：");
-        double normalPrice = sc.nextDouble();
-        double price = new GetPrice().getPrice(bookMap,normalPrice);
+        System.out.println("请输入该类型图书每本书的价格，用空格隔开");
+        List<Double> priceList1 = new ArrayList<Double>();
+        String ss1[] = sc.nextLine().split(" ");
+        for(int i = 0;i < count1;i++){
+            priceList1.add(Double.parseDouble(ss1[i]));
+        }
+        Book book1 = new Book(type1,count1,priceList1);
+        books.add(book1);
+
+        System.out.println("请输入图书的类型与数量，用空格隔开:");
+        String s2[] = sc.nextLine().split(" ");
+        String type2 = s2[0];
+        int count2 = Integer.parseInt(s2[1]);
+
+        System.out.println("请输入该类型图书每本书的价格，用空格隔开");
+        List<Double> priceList2 = new ArrayList<Double>();
+        String ss2[] = sc.nextLine().split(" ");
+        for(int i = 0;i < count2;i++){
+            priceList2.add(Double.parseDouble(ss2[i]));
+        }
+        Book book2 = new Book(type2,count2,priceList2);
+        books.add(book2);
+
+        System.out.println("请输入图书的类型与数量，用空格隔开:");
+        String s3[] = sc.nextLine().split(" ");
+        String type3 = s3[0];
+        int count3 = Integer.parseInt(s3[1]);
+
+        System.out.println("请输入该类型图书每本书的价格，用空格隔开");
+        List<Double> priceList3 = new ArrayList<Double>();
+        String ss3[] = sc.nextLine().split(" ");
+        for(int i = 0;i < count3;i++){
+            priceList3.add(Double.parseDouble(ss3[i]));
+        }
+        Book book3 = new Book(type3,count3,priceList3);
+        books.add(book3);
+
+
+
+        double price = new GetPrice().getPrice(books);
         System.out.println("结算价格为：" + price);
     }
 }

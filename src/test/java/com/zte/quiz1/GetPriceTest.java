@@ -10,7 +10,7 @@ public class GetPriceTest {
     @Test
     public void getPrice() throws Exception {
 
-        double normalPrice1 = 10;
+       /* double normalPrice1 = 10;
         HashMap<String,Integer> map1 = new HashMap<String, Integer>();
         map1.put("新书",1);
         map1.put("常规图书",1);
@@ -47,7 +47,7 @@ public class GetPriceTest {
 
         double normalPrice6 = 10;
         HashMap<String,Integer> map6 = new HashMap<String, Integer>();
-        assertEquals(-1,new GetPrice().getPrice(map6,normalPrice6),0);
+        assertEquals(-1,new GetPrice().getPrice(map6,normalPrice6),0);*/
 
     }
 
