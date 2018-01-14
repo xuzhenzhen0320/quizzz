@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38fc9d58-8b2b-42a7-97e9-1c0ced7e329a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/zte/quiz1/GetPriceTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/zte/quiz1/GetPriceTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -50,18 +49,22 @@
       <file leaf-file-name="GetPriceTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/zte/quiz1/GetPriceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="44" column="26" lean-forward="true" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+            <state relative-caret-position="194">
+              <caret line="55" column="35" lean-forward="false" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#307#315#0" expanded="true" />
                 <element signature="e#368#376#0" expanded="true" />
                 <element signature="e#426#434#0" expanded="true" />
-                <element signature="e#725#731#0" expanded="true" />
-                <element signature="e#939#947#0" expanded="true" />
-                <element signature="e#1000#1008#0" expanded="true" />
-                <element signature="e#1058#1066#0" expanded="true" />
-                <element signature="e#1355#1361#0" expanded="true" />
+                <element signature="e#724#730#0" expanded="true" />
+                <element signature="e#938#946#0" expanded="true" />
+                <element signature="e#999#1007#0" expanded="true" />
+                <element signature="e#1057#1065#0" expanded="true" />
+                <element signature="e#1352#1358#0" expanded="true" />
+                <element signature="e#1566#1574#0" expanded="true" />
+                <element signature="e#1627#1635#0" expanded="true" />
+                <element signature="e#1685#1693#0" expanded="true" />
+                <element signature="e#1983#1989#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -476,17 +479,11 @@
       <updated>1515748525259</updated>
       <workItem from="1515748528019" duration="18277000" />
       <workItem from="1515842527384" duration="4172000" />
-      <workItem from="1515847296323" duration="11323000" />
+      <workItem from="1515847296323" duration="11614000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GetPriceTest - 2018.01.12 at 22h 48m 30s.xml">
-      <configuration name="GetPriceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GetPriceTest - 2018.01.12 at 22h 49m 49s.xml">
-      <configuration name="GetPriceTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GetPriceTest - 2018.01.12 at 22h 50m 22s.xml">
       <configuration name="GetPriceTest" configurationId="JUnit" />
     </history-entry>
@@ -511,9 +508,15 @@
     <history-entry file="GetPriceTest - 2018.01.14 at 16h 53m 03s.xml">
       <configuration name="GetPriceTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GetPriceTest - 2018.01.14 at 16h 56m 50s.xml">
+      <configuration name="GetPriceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GetPriceTest - 2018.01.14 at 16h 57m 53s.xml">
+      <configuration name="GetPriceTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33772000" />
+    <option name="totallyTimeSpent" value="34063000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -528,7 +531,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.040973112" sideWeight="0.505" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1475" sideWeight="0.4903846" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4385965" sideWeight="0.495" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4385965" sideWeight="0.495" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1475" sideWeight="0.50961536" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -601,11 +604,15 @@
             <element signature="e#307#315#0" expanded="true" />
             <element signature="e#368#376#0" expanded="true" />
             <element signature="e#426#434#0" expanded="true" />
-            <element signature="e#725#731#0" expanded="true" />
-            <element signature="e#939#947#0" expanded="true" />
-            <element signature="e#1000#1008#0" expanded="true" />
-            <element signature="e#1058#1066#0" expanded="true" />
-            <element signature="e#1355#1361#0" expanded="true" />
+            <element signature="e#724#730#0" expanded="true" />
+            <element signature="e#938#946#0" expanded="true" />
+            <element signature="e#999#1007#0" expanded="true" />
+            <element signature="e#1057#1065#0" expanded="true" />
+            <element signature="e#1352#1358#0" expanded="true" />
+            <element signature="e#1566#1574#0" expanded="true" />
+            <element signature="e#1627#1635#0" expanded="true" />
+            <element signature="e#1685#1693#0" expanded="true" />
+            <element signature="e#1983#1989#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -657,11 +664,15 @@
             <element signature="e#307#315#0" expanded="true" />
             <element signature="e#368#376#0" expanded="true" />
             <element signature="e#426#434#0" expanded="true" />
-            <element signature="e#725#731#0" expanded="true" />
-            <element signature="e#939#947#0" expanded="true" />
-            <element signature="e#1000#1008#0" expanded="true" />
-            <element signature="e#1058#1066#0" expanded="true" />
-            <element signature="e#1355#1361#0" expanded="true" />
+            <element signature="e#724#730#0" expanded="true" />
+            <element signature="e#938#946#0" expanded="true" />
+            <element signature="e#999#1007#0" expanded="true" />
+            <element signature="e#1057#1065#0" expanded="true" />
+            <element signature="e#1352#1358#0" expanded="true" />
+            <element signature="e#1566#1574#0" expanded="true" />
+            <element signature="e#1627#1635#0" expanded="true" />
+            <element signature="e#1685#1693#0" expanded="true" />
+            <element signature="e#1983#1989#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -743,18 +754,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/zte/quiz1/GetPriceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="44" column="26" lean-forward="true" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+        <state relative-caret-position="194">
+          <caret line="55" column="35" lean-forward="false" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#307#315#0" expanded="true" />
             <element signature="e#368#376#0" expanded="true" />
             <element signature="e#426#434#0" expanded="true" />
-            <element signature="e#725#731#0" expanded="true" />
-            <element signature="e#939#947#0" expanded="true" />
-            <element signature="e#1000#1008#0" expanded="true" />
-            <element signature="e#1058#1066#0" expanded="true" />
-            <element signature="e#1355#1361#0" expanded="true" />
+            <element signature="e#724#730#0" expanded="true" />
+            <element signature="e#938#946#0" expanded="true" />
+            <element signature="e#999#1007#0" expanded="true" />
+            <element signature="e#1057#1065#0" expanded="true" />
+            <element signature="e#1352#1358#0" expanded="true" />
+            <element signature="e#1566#1574#0" expanded="true" />
+            <element signature="e#1627#1635#0" expanded="true" />
+            <element signature="e#1685#1693#0" expanded="true" />
+            <element signature="e#1983#1989#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -22,7 +22,6 @@ public class GetPriceTest {
         Book book2 = new Book("常规图书",1,normalPrice1);
         Book book3 = new Book("滞销图书",1,oldPrice1);
 
-
         List<Book> books1 = new ArrayList<Book>();
         books1.add(book1);
         books1.add(book2);
@@ -37,15 +36,31 @@ public class GetPriceTest {
         normalPrice2.add(10.0);
         oldPrice2.add(10.0);
         Book book4 = new Book("",1,newPrice2);
-        Book book5 = new Book("haha",1,normalPrice2);
+        Book book5 = new Book("hhh",1,normalPrice2);
         Book book6 = new Book("滞销图书",1,oldPrice2);
-
 
         List<Book> books2 = new ArrayList<Book>();
         books2.add(book4);
         books2.add(book5);
         books2.add(book6);
         assertEquals(-1,new GetPrice().getPrice(books2),0);
+
+        //测试用例3
+        List<Double> newPrice3 = new ArrayList<Double>();
+        List<Double> normalPrice3 = new ArrayList<Double>();
+        List<Double> oldPrice3 = new ArrayList<Double>();
+        newPrice3.add(-1.2);
+        normalPrice3.add(10.0);
+        oldPrice3.add(10.0);
+        Book book7 = new Book("新书",1,newPrice3);
+        Book book8 = new Book("常规图书",1,normalPrice3);
+        Book book9 = new Book("滞销图书",1,oldPrice3);
+
+        List<Book> books3 = new ArrayList<Book>();
+        books3.add(book7);
+        books3.add(book8);
+        books3.add(book9);
+        assertEquals(-1,new GetPrice().getPrice(books3),0);
 
 
 
